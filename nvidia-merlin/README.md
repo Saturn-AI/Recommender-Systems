@@ -19,4 +19,15 @@
 !pip install -U git+https://github.com/NVIDIA-Merlin/Transformers4Rec.git@release-23.04
 !pip install -U xgboost lightfm implicit
 ```
+```
+!pip install nvtabular=="1.5.0"
+!pip install merlin=="1.9.1"
+!pip install merlin-models=="0.10.0"
+!pip install merlin-systems
+!pip install tritonclient
+!pip install pyarrow=="10.0.1"
+!pip install torch
+!pip install tensorflow=="2.11.0"
+!pip install --upgrade protobuf
+```
 
