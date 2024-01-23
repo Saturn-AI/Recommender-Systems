@@ -28,6 +28,6 @@
 !pip install pyarrow=="10.0.1"
 !pip install torch
 !pip install tensorflow=="2.11.0"
-!pip install --upgrade protobuf
+!pip install protobuf
 ```
 
