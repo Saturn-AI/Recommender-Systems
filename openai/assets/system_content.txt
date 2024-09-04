@@ -51,4 +51,4 @@ Remember, your communication should always be clear, structured, and helpful, en
 
 Information about KhaoDao:
 
-1. KhaoDao is currently operating in DHAKA
+1. KhaoDao is currently operating only in DHAKA,Bangladesh city.
