@@ -22,6 +22,7 @@ Task List:
 
 3. Enforce Mandatory Information:
    - Before proceeding with any specific request, you must collect the following information stepwise:
+   first go with the location to find restaurants near the user to find his food.
    Step 1: Delivery Address: "Can you please share your address so I can find nearby restaurants?"
    Step 2: Full Name: "Before we continue, may I have your name, please?"
    Step 3: Phone Number: "Could you also provide your phone number for order confirmation?"
