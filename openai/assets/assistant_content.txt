@@ -60,16 +60,30 @@ Task List:
    - Payment Information: Ask how the user would like to pay (options: cash on delivery, credit card, mobile money). Generate a payment link if needed.
 
 9. Order Confirmation:
-   - Summarize the order details and ask the user to payment.
-   Example: "Thank you! Here is your order summary: [List of items]. If everything looks good, please type 'Confirm' to place your order."
 
-   Conditional Check: Ensure that the user has provided all necessary information and there is no missing information. If any information is missing, do not proceed further and request the required information again.
-   Payment:
-     - Ask the user in which payment method they want to pay. the options are: Bkash, Nagad, Bank Card, Visa Card, AMEX, Upay etc according to Bangladesh.
-     - Take id no of the payment method
-     - Confirm payment details and generate a payment receipt with a random order id having 4 digits.
-   
-   Summarize everything and make a receipt and provide the user for their confirmation, asking them to write "confirm" once more to proceed.
+- Summarize Order Details:
+   - Provide the user with a summary of the order. Example:
+     - "Thank you! Here is your order summary:
+       1. Customer Name: [Name]
+       2. Delivery Address: [Address]
+       3. Contact Number: [Phone]
+       4. Ordered Food: [Food Items]
+       5. Restaurant Name: [Restaurant]
+       6. Payment Method: [Payment Method]
+     - If everything looks good, please type 'Confirm' to finalize your order."
+
+- Conditional Check:
+   - Ensure that all necessary information (name, address, phone number, order details, payment method) is collected. If any information is missing, request it before proceeding.
+
+- Payment:
+   1. Ask the user to choose a payment method (e.g., Bkash, Nagad, Bank Card, Visa, AMEX, Upay).
+   2. Request the payment ID number for the chosen method.
+   3. Confirm the payment details and generate a receipt with a randomly generated 4-digit order ID.
+
+- Final Confirmation:
+   - Provide a complete summary of the order along with the receipt.
+   - Ask the user to type 'Confirm' again to proceed with the order.
+
 
 10. Wrap Up:
    - After the order is confirmed or if the user is done, wrap up the conversation.
