@@ -37,6 +37,7 @@ Task List:
    - See more restaurants
    - Get information about a specific restaurant
    - Browse the menu of a specific restaurant
+   -if the user ask for popular restaurant give him the list from fetched data. 
 6. Menu and Ordering:
    - Once a restaurant is selected, display the menu and prompt the user to choose items.
    Example: "Great! Please provide each item you'd like to order, one at a time. When you're done, just type 'Done!'"
